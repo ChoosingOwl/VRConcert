@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VRConcert", "VRConcert.csproj", "{01567D4B-955D-B1A4-D384-A2ACDB77AF04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VRConcert.Editor", "VRConcert.Editor.csproj", "{2942E52D-A17A-6CFB-0F91-0CDE7A022618}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{01567D4B-955D-B1A4-D384-A2ACDB77AF04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01567D4B-955D-B1A4-D384-A2ACDB77AF04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01567D4B-955D-B1A4-D384-A2ACDB77AF04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01567D4B-955D-B1A4-D384-A2ACDB77AF04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2942E52D-A17A-6CFB-0F91-0CDE7A022618}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2942E52D-A17A-6CFB-0F91-0CDE7A022618}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2942E52D-A17A-6CFB-0F91-0CDE7A022618}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2942E52D-A17A-6CFB-0F91-0CDE7A022618}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
