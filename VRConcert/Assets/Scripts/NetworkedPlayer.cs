@@ -16,8 +16,8 @@ public class NetworkedPlayer : Photon.MonoBehaviour {
 
         if (photonView.isMine)
         {
-            spawnedCameraRig = (GameObject)Instantiate(Resources.Load("PlayerOne"), new Vector3(0f, 0f, 0f), Quaternion.identity);
-            playerGlobal = GameObject.Find("PlayerOne(Clone)").transform;
+            spawnedCameraRig = (GameObject)Instantiate(Resources.Load("[CameraRig]"), new Vector3(0f, 0f, 0f), Quaternion.identity);
+            playerGlobal = GameObject.Find("Player1(Clone)").transform;
             playerLocal = playerGlobal.Find("[CameraRig]/Camera (head)/Camera (eye)");
             if(playerLocal == null)
             {

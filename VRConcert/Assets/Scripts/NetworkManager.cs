@@ -30,7 +30,7 @@ public class NetworkManager : MonoBehaviour {
 
         if(PhotonNetwork.playerList.Length < 2)
         {
-            PhotonNetwork.Instantiate("PlayerOne", new Vector3(0f, 0f, 0f), Quaternion.identity, 0);
+            PhotonNetwork.Instantiate("Player1", new Vector3(0f, 0f, 0f), Quaternion.identity, 0);
         }else if (PhotonNetwork.playerList.Length < 3)
         {
             PhotonNetwork.Instantiate("PlayerTwo", new Vector3(0f, 100f, 0f), Quaternion.identity, 0);
