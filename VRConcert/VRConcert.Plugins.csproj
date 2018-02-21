@@ -76,11 +76,11 @@
     <Reference Include="UnityEngine.HoloLens">
       <HintPath>C:/Program Files/Unity2017/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
     </Reference>
-    <Reference Include="websocket-sharp">
-      <HintPath>Assets/Plugins/WebSocket/websocket-sharp.dll</HintPath>
-    </Reference>
     <Reference Include="Photon3Unity3D">
       <HintPath>Assets/Plugins/Photon3Unity3D.dll</HintPath>
+    </Reference>
+    <Reference Include="websocket-sharp">
+      <HintPath>Assets/Plugins/WebSocket/websocket-sharp.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>C:/Program Files/Unity2017/Editor/Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -98,6 +98,7 @@
     <None Include="Assets\Photon Unity Networking\readme.txt" />
     <None Include="Assets\Plugins\Photon3Unity3D.xml" />
     <None Include="Assets\Plugins\release_history.txt" />
+    <None Include="Assets\Resources\Normalize.shader" />
     <None Include="Assets\SteamVR\Resources\SteamVR_AlphaOut.shader" />
     <None Include="Assets\SteamVR\Resources\SteamVR_ClearAll.shader" />
     <None Include="Assets\SteamVR\Resources\SteamVR_ColorOut.shader" />

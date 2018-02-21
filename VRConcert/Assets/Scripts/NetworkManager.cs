@@ -30,6 +30,7 @@ public class NetworkManager : MonoBehaviour {
 
         if(PhotonNetwork.playerList.Length < 2)
         {
+           //Instantiates the avatar here, and the position where it spawns.
             PhotonNetwork.Instantiate("Player1", new Vector3(0f, 0f, 0f), Quaternion.identity, 0);
         }else if (PhotonNetwork.playerList.Length < 3)
         {
