@@ -134,3 +134,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerGlobal: {fileID: 0}
   playerLocal: {fileID: 0}
+  isPlayer1: 1
